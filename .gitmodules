@@ -1,0 +1,6 @@
+[submodule "www"]
+	path = www
+	url = https://github.com/SignalRegistry/www
+[submodule "cdn"]
+	path = cdn
+	url = https://github.com/SignalRegistry/cdn
