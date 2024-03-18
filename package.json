@@ -5,6 +5,7 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
+    "start:nodemon": "nodemon --watch main.js --exec npm start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Hüseyin YİĞİT",
@@ -13,6 +14,7 @@
     "electron": "^29.1.4"
   },
   "dependencies": {
+    "express": "^4.18.3",
     "replace-in-file": "^7.1.0"
   }
 }
