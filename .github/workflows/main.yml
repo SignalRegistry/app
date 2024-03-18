@@ -17,3 +17,5 @@ jobs:
           node-version: 20.x
       - name: Clean Install
         run: npm ci
+      - name: Update Submodules
+        run: git submodule update --init www && git submodule update --init cdn
